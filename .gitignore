@@ -135,7 +135,6 @@ production/*.eps
 production/*.pdf
 
 ## directory without need for version control
-simulation/*.txt
 simulation/*.csv
 simulation/*.bin
 production/L_*
