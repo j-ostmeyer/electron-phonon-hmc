@@ -19,7 +19,7 @@ The code depends on `Lapacke` and `FFTW3`. Make sure you have recent installatio
 After adjusting the Makefile according to your needs (possibly switching to another compiler), simply type `make` to compile all the `C` files.
 
 ### Run Code
-Adjust the `input.txt` file according to the next subsection. Alternatively, create a new file with the relevant input parameters. Then, for HMC simulations, execute:
+Adjust the `input.txt` file (current default simulates Rubrene at room temperature using HMC with FA) according to the next subsection. Alternatively, create a new file with the relevant input parameters. Then, for HMC simulations, execute:
 ```
 ./organic_main input.txt results.csv corr.csv
 ```
