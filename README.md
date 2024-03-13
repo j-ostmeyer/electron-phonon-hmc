@@ -38,11 +38,11 @@ Again, scalar results are written to `results.csv`. In addition, binned Greens f
 The input file is structured as follows (comments after the `#` are for this README only and should not be added into the actual input file):
 ```
 L1 L2		# spatial geometry in 2D
-Nt			# number of (Euclidean) time slices for HMC / number of Greens function bins for TL
+Nt		# number of (Euclidean) time slices for HMC / number of Greens function bins for TL
 beta		# inverse temperature
 J1 J2 J3	# J_a hopping amplitudes on triangular lattice
 l1 l2 l3	# lambda_a hopping amplitude fluctuations
-mu0			# reduced chemical potential
+mu0		# reduced chemical potential
 omega0		# phonon frequency
 Nmd traj	# molecular dynamics steps, trajectory length in HMC (traj=0 sets default, optimal for FA) / ignored in TL
 therm		# thermalisation steps / ignored in TL
@@ -50,14 +50,14 @@ N freq		# number of simulated trajectories, measurement frequency
 a1 a2		# 1st unit cell vector in 2D
 b1 b2		# 2nd unit cell vector in 2D
 flavors		# fermionic flavors
-more flags... (e.g. STATIC_DISORDER for TL simulations)
-see organic_flags.c for options
+# more flags... (e.g. STATIC_DISORDER for TL simulations)
+# see organic_flags.c for options
 ```
 
 For TL simulations an additional `smear.txt` file is needed:
 ```
 beta Nt		# inverse temperature, number of (Euclidean) time slices for correlator output
-w1			# any number of kernel widths for the smearing
+w1		# any number of kernel widths for the smearing
 w2
 ...
 ```
