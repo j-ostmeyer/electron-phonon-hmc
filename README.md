@@ -68,4 +68,4 @@ The data used in the paper will gladly be provided upon request.
 
 ## Stable Releases
 
-`v1.0.1` initial publication after the preprint, compatible with arXiv version v2.
+`v1.0.2` initial publication after the preprint, compatible with arXiv version v2.
